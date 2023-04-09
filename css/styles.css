@@ -1,28 +1,138 @@
+
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate-paragraf-color: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: #2e2f42;
+	--grey-primary-text-color : #2e2f42;
+	--white-accent-text-color: #ffffff;
+	--dairy: #fcfcfc;
+}
+
 /*Header sections*/
 
 .list {
    list-style: none;
 }
-.site-nav a {
-   color: #000000;
+.header-1 {
+	font-size: 56px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.header-2 {
+	font-size: 36px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.header-3 {
+	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.body {
+   background-color: var(--background-color);
+   font-family: Montserrat; Roboto; sans-serif;
+
+   font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.link {
+   text-decoration: none;
+}
+.body-medium {
+	font-size: 16px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
 }
 
-.filter-btn:hover
-.filter-btn:focuss{
+/*Button*/
+.filter-button:hover
+.filter-button:focus{
+   color: #ffffff;
    background-color: #404BBF;;
    }
-/*Section Hero*/   
+.button-text {
+   
+   font-size: 16px;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+}
+.small-text {
+	font-size: 12px;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+}
+.link-text {
+	font-size: 12px;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	text-decoration: underline;
+	text-transform: none;
+}
 
-.hero {
-   color: #000000 ;
-}
-.hero-titlo {
-   color: #000000 ; 
 
+/*Header sections*/
+
+.list {
+   list-style: none;
 }
-.section-title {
-   color: #000000 ;
+.site-nav-link {
+   color: #404BBF;
+   
 }
+
+/*Navigation*/ 
+.filter-button:hover
+.filter-button:focus{
+   color: #ffffff;
+   background-color: #404BBF;;
+   }
+
+/*Section Hero*/ 
+
 /*Section About*/
 
 
