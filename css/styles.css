@@ -29,6 +29,12 @@
 
 /*Header sections*/
 
+.list {
+	list-style: none;
+ }
+ .site-nav-link {
+	color: #404BBF;   
+ }
 
 .header{
 	padding-top: 24px;
@@ -48,22 +54,24 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
-.header-link link:hover{
+.header-link link:hover,
+.header-link link:focus{
 color: var(--ocean);
 }
 
 
 
 /*Hero*/
-.section-hero{
-	background: var(--bgr-color);
-	position: absolute;
-	width: 1440px;
-	height: 600px;
-	left: 0px;
-	top: 72px;
+.section-hero {
 	
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background: #2E2F42;
 }
+
 .hero-line {
 
     width: 507px;
@@ -75,6 +83,14 @@ color: var(--ocean);
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
 }
+
+.hero-main-button:hover,
+.hero-main-button:focus {
+color: var(--white-accent-text-color);
+background-color: var(--iris);
+border: 1px
+}
+
 /*Button*/
 .filter-button:hover
 .filter-button:focus{
@@ -91,9 +107,6 @@ color: var(--ocean);
 	text-decoration: none;
 	text-transform: none;
 }
-
-
-
 .small-text {
 	font-size: 12px;
 	font-family: "Roboto";
@@ -120,27 +133,13 @@ color: var(--ocean);
 }
 
 
-/*Header sections*/
-
-.list {
-   list-style: none;
-}
-.site-nav-link {
-   color: #404BBF;   
-}
-
-.hero-main-button:hover,
-.hero-main-button:focus {
-color: var(--white-accent-text-color);
-background-color: var(--iris);
-border: 1px
-}
-
 /*Portfolio hero*/  
 .hero-button:hover,
 .hero-button:focus{
    color: #ffffff;
-   background-color: #404BBF;
+   background-color: #404BBF;}
+
+.btn-list-text {
    font-family: inherit;
    font-weight: 500;
 	font-size: 16px;
@@ -150,18 +149,8 @@ border: 1px
 	font-family: "Roboto";
 	font-weight: 500;
 	line-height: 24px;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.04em; 
 	
 }
+   
 
-/*Section Hero*/ 
-
-/*Section About*/
-
-
-/*Section Img*/
-
-
-/*Section Team*/
-
-/*Footer*/
